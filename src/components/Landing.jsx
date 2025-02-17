@@ -18,7 +18,7 @@ const Landing = () => {
     <div className="min-h-screen bg-gray-50 text-gray-800 flex flex-col justify-between">
       {/* Navigation */}
       <nav className="fixed top-0 left-0 right-0 bg-white/90 shadow-md backdrop-blur-lg p-4 flex justify-between items-center">
-        <h1 className="text-xl font-semibold tracking-wide text-gray-700">Paan Platforms</h1>
+        <h1 className="text-xl font-semibold tracking-wide text-gray-700">Evoq Platforms</h1>
         <div className="space-x-6">
           {navigationElements.map((element, index) => (
             <Link key={index} to="/" className="text-gray-600 hover:text-blue-500 transition">
@@ -40,7 +40,7 @@ const Landing = () => {
         </button>
       </section>
       <footer className="text-center py-4 text-gray-500 text-sm bg-gray-100 border-t">
-        © 2025 Paan. All Rights Reserved.
+        © 2025 Evoq. All Rights Reserved.
       </footer>
     </div>
   );
